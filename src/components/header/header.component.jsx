@@ -13,7 +13,6 @@ import { selectCartHidden } from '../../redux/cart/cart.selector';
 import { ReactComponent as Logo } from '../../assets/4.4 crown.svg.svg';
 
 const Header = ({ currentUser, hidden }) => {
-  // console.log(currentUser);
   return (
     <div className='header'>
       <Link className='logo-container' to='/'>
